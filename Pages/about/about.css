@@ -1,0 +1,54 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background: linear-gradient(to right, #0c1196 1% ,black , #480c96 99%);
+    color: white;
+}
+
+h1 {
+    font-size: 4em;
+    margin: 0;
+}
+
+.maxWidth {
+    max-width: 1950px;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+    align-items: center;
+    justify-content: center;
+}
+
+.hero {
+    display: flex;
+    gap: 50px;
+    align-items: center;
+}
+
+.headingSection {
+    height: 100%;
+}
+
+.imageSection {
+    display: flex;
+    min-height: 100%;
+    padding: 50px;
+    align-items: center;
+    justify-content: center;
+}
+
+.ericPhoto {
+    width: 15vw;
+    max-width: 700px;
+    height: auto;
+    border-radius: 20px;
+}
+
+.rgbImage {
+    width: 800px
+}

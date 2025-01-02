@@ -1,0 +1,18 @@
+body {
+    background: linear-gradient(to right, #0c1196 1% ,black , #480c96 99%);
+}
+
+.box {
+    text-align: center;
+    margin-left: 32%;
+    padding: 3vw;
+    height: 30vw;
+    width: 30vw;
+    display: flex;
+    color: white;
+    font-family: sans-serif;
+    font-size: 24pt;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
